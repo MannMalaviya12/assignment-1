@@ -1,0 +1,180 @@
+body {
+  margin: 0;
+  padding: 0;
+  justify-content: center;
+  align-items: center;
+  min-height: auto;
+  background-color: rgba(0, 0, 0, .9); /* Background color of the body */
+}
+section{
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+
+}
+.container {
+  position: relative; /* Defines a container with a relative position */
+}
+
+.image {
+  max-height: 100vh;/*Adjusts the height of image*/
+  align-items: flex-start; /* Aligns the image to the top */
+}
+
+.names {
+  position: absolute; /* Positions the names section absolutely within its parent container */
+  top: 0%; 
+  left: 48%;
+  transform: translateX(-50%); /* Centers the names horizontally */
+  text-align: center;
+  width: 110%;
+  padding-left: 10%;
+  display: flex; /*used Flex to align names of character accordingly*/
+  justify-content:space-evenly;
+  letter-spacing: 1.7px; /* Adds letter spacing to the names */
+}
+
+.name {
+  /*Giving appropriate color,font-size and Font-style to the text*/
+  color: #0cc0df;
+  font-size: 11px;
+  font-family: 'Roboto Condensed', sans-serif;
+  font-weight: bold;
+}
+
+.content p {
+  line-height: 1.7; /* Sets the line height of paragraphs within the content section according to original poster */
+}
+
+.content {
+  position: absolute; /* Positions the content section absolutely within its parent container */
+  top: 51%;
+  text-align: center;
+  padding-left: 28%; /* Centers the names horizontally */
+  letter-spacing: 4px; /* Adds letter spacing to the content */
+}
+
+.content {
+    /*Giving appropriate font-color,font-size,Font-style and position to the text*/
+
+  color: #0cc0df;
+  font-size: 70%;
+  font-family: 'Roboto Condensed', sans-serif;
+  font-weight: bolder;
+}
+
+.content2 h4, .content2 p {
+  margin: 0;
+}
+
+.content2 p {
+  position: absolute; /* Positions the content2 paragraph absolutely within its parent container */
+  color: #FFA111;
+  top: 70.3%;
+  padding-left: 27%;
+  font-size: 170%;
+  font-family: 'Roboto', sans-serif;
+  letter-spacing: 13px; /* Adds letter spacing to the content2 paragraph */
+}
+
+.content2 h4 {
+  position: absolute; /* Positions the content2 heading absolutely within its parent container */
+  color: #FFA111;
+  top: 72%;
+  padding-left: 20%;
+  font-size: 540%;
+  font-family: 'Roboto Condensed', sans-serif;
+  letter-spacing: -1px; /* Adds negative letter spacing to the content2 heading */
+}
+
+.content3 {
+  font-family: 'Dosis', sans-serif;
+}
+
+.content3 p {
+  position: absolute; /* Positions the content3 paragraph absolutely within its parent container */
+  color: #ABABAB;
+  top: 89.4%;
+  text-align: center;
+  padding-left: 19.5%;
+  font-size: 25%;
+}
+
+.content3 h4 {
+  position: absolute; /* Positions the content3 heading absolutely within its parent container */
+  color: #ABABAB;
+  top: 88%;
+  text-align: center;
+  padding-left: 25%;
+  font-size: 10px;
+  font-weight: lighter;
+}
+
+.content4 {
+  font-family: 'Dosis', sans-serif;/*Appropriate font style for the Text*/
+}
+
+.content4 p {
+  position: absolute; /* Positions the content4 paragraph absolutely within its parent container */
+  color: #ABABAB;
+  top: 89.5%;
+  text-align: center;
+  padding-left: 43%;
+  font-size: 25%;
+}
+
+.content4 h4 {
+  position: absolute; /* Positions the content4 heading absolutely within its parent container */
+  color: #ABABAB;
+  top: 88%;
+  text-align: center;
+  padding-LEFT: 49%;
+  font-size: 10px;
+  font-weight: lighter;
+}
+
+.Rlogo img {
+  position: absolute; /* Positions the Rlogo image absolutely within its parent container */
+  top: 88.9%;
+  width: 5.5%;
+  height: 4%;
+  padding-left: 82%;
+}
+
+.date h4 {
+  position: absolute; /* Positions the date heading absolutely within its parent container */
+  bottom: 0%;
+  color: aliceblue;
+  font-family: sans-serif;
+  font-weight: bold;
+  padding-left: 35%;
+}
+
+.platform p {
+  position: absolute; /* Positions the platform paragraph absolutely within its parent container */
+  bottom: 0.5%;
+  color: red;
+  padding-left: 54%;
+  font-size: large;
+}
+
+.platform img { 
+  position: absolute; /* Positions the platform image absolutely within its parent container */
+  bottom: 3%;
+  width: 17%;
+  height: 2.7%;
+  padding-left: 59%;
+}
+footer{/*Aligning the link in the center and evenly spaced with some line spacing*/
+  text-align: center;
+  justify-content:space-evenly;
+  letter-spacing: 3.5px; /* Adds letter spacing to the names */
+}
+footer a {
+  color: #0cc0df; /*Changes the Link color*/
+  text-decoration:underline;
+}
+
+footer a:hover {
+  color: #FFA111; /*It modifies the link in a way that it changes color when the cursor is on the link */
+}
